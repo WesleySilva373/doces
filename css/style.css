@@ -1,0 +1,93 @@
+
+body{
+    background:url("../img/149782-contorno-tiramisu-padrao-bolo-vector-livre-vetor.jpg");
+}
+#header h1{
+    justify-content: center;
+    display: flex;
+   font-weight: 900;
+   color: white;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 958px;
+   
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px; /* Espaço entre os itens */
+    list-style: none;
+    padding-right: 20px;
+    font-size: 25px ;
+    
+   
+    
+  }
+  .menu a{
+    text-decoration: none;
+    color: rgb(240, 228, 235);
+    
+  }
+
+  .menu a:hover {
+    color: rgb(228, 23, 142); /* Cor do texto ao passar o mouse */
+    transform: scale(1.20); /* Aumenta o tamanho do link ao passar o mouse */
+  }
+
+  .flex-container {
+    display: flex; /* Define o contêiner como flexbox */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    justify-content: center; /* Centraliza o conteúdo */
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.inicio {
+    margin-top: 180px;
+    padding: 0;
+    display: flex; /* Define .inicio como flexbox */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+}
+
+.inicio img {
+    margin-left: 120px;
+    max-width: 100%; /* Garante que a imagem não exceda o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.inicio h2, .inicio p {
+    color: white;
+    padding-left: 40px;
+}
+.inicio p{
+   font-size: 35px;
+}
+
+.inicio h2{
+    font-size: 45px;
+}
+.cardapio h2 {
+    color: white;
+    font-size: 25px;
+
+}
+.cardapio {
+    text-align: center; /* Centraliza o texto */
+    padding: 50px 0; /* Espaçamento ao redor do conteúdo */
+    padding-top: 100px;
+   
+}
+.cardapio .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardapio p{
+    font-size: 25px;
+    color: white;
+}
+
+
