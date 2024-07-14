@@ -8,13 +8,14 @@ body{
    font-weight: 900;
    color: white;
 }
-.menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    margin-left: 958px;
    
-  }
+.menu {
+    background: linear-gradient(90deg, rgba(255, 192, 203, 1) 0%, rgba(255, 105, 180, 1) 100%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+   
   
   .menu li {
     display: inline-block;
@@ -22,6 +23,8 @@ body{
     list-style: none;
     padding-right: 20px;
     font-size: 25px ;
+    
+
     
    
     
@@ -71,23 +74,54 @@ body{
 .cardapio h2 {
     color: white;
     font-size: 25px;
-
 }
+
+
+.cardapio span{
+    font-size: 25px;
+    color: white;
+    
+}
+
+
 .cardapio {
     text-align: center; /* Centraliza o texto */
     padding: 50px 0; /* Espaçamento ao redor do conteúdo */
     padding-top: 100px;
-   
-}
-.cardapio .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    }
+
+ .bloco{
+        background: white;
+        gap: 20px;
+        
+
+    }
+    
+    /* Estilos para o container */
+.container {
+    width: 300px; /* Largura do quadrado */
+    height: 500px; /* Altura do quadrado */
+    display: flex; /* Usar flexbox para o conteúdo interno */
+    flex-direction: column; /* Colocar itens em coluna */
+    align-items: center; /* Centralizar itens horizontalmente */
+    justify-content: center; /* Centralizar itens verticalmente */
+    background-color: #fff; /* Cor de fundo branca */
+    border-radius: 20px; /* Bordas arredondadas do container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
 }
 
-.cardapio p{
-    font-size: 25px;
-    color: white;
+/* Estilos para a imagem dentro do container */
+.container img {
+    width: 100%; /* Largura total do container */
+    height: auto; /* Manter proporção da imagem */
+    border-radius: 15px; /* Bordas arredondadas da imagem */
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
 }
 
-
+/* Estilos para a descrição (h2) */
+.container h2 {
+    font-size: 18px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
