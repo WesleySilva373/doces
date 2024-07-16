@@ -2,114 +2,275 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edna Bolos</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
-    </style>
+  <title>Restaurante | Caos</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Arquivos da net CSS  // vendor = fornecedor web -->
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <header id="header">
+  <!-- Barra Superior - TOP BAR -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
 
-        <h1>
-            <p class="special-font"> Caseirinhos Da Edna</p>
-        </h1>
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-whatsapp d-flex align-items-center">
+          <span>(11) 9 8765 - 4321 </span>
+        </i>
 
-        <div class="menu">
+        <i class="bi bi-clock d-flex align-items-center ms-4">
+          <span>Ter-Sab: 11AM - 23PM </span>
+        </i>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========= HEADER =========  -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center-lg-between">
+
+      <h1 class="logo me-auto me-lg-0">
+        <a href="#"> Caos </a>
+      </h1>
+      <!-- <a href="#" class="logo me-auto me-lg-0">
+        <img src="img/logo.png" alt="" class="img-fluid">
+      </a> -->
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"> Sobre </a>
+          </li>
+          <li>
+            <a href="#menu" class="nav-link scrollto"> Cardapio </a>
+          </li>
+          <li>
+            <a href="#specials" class="nav-link scrollto"> Especiais </a>
+          </li>
+          <li>
+            <a href="#events" class="nav-link scrollto"> Eventos </a>
+          </li>
+          <li>
+            <a href="#chefs" class="nav-link scrollto"> Chefes </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"> Contato</a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"> </i>
+      </nav>
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">
+        Reservas
+      </a>
+
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Bem vindo ao <span>Restaurante CAOS</span> </h1>
+          <h2> Entregando boa comida por mais de 18 anos! </h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto"> Cardapio </a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto"> Reservas </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
+          data-aos-delay="200">
+
+          <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- fim HERO -->
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <figure class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+
+            <div class="about-img">
+              <img src="img/about.jpg">
+            </div>
+          </figure>
+
+          <aside class="col-lg-6 pt-lg-0 order-2 order-lg-1 content">
+            <h3> Sobre Nós! <br> Lorem, ipsum dolor sit amet consectetur. </h3>
+            <p class="fst-italic"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
             <ul>
-                <li><a href="#inicio">inicio</a></li>
-                <li><a href="#cardapio">cardapio</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#localição">localição</a></li>
+              <li>
+                <i class="bi bi-check-circle"> Visão! Lorem ipsum dolor sit amet. </i>
+              </li>
+
+              <li>
+                <i class="bi bi-check-circle"> Missão! Lorem ipsum dolor sit amet. </i>
+              </li>
+
+              <li>
+                <i class="bi bi-check-circle"> Valores! Lorem ipsum dolor sit amet. </i>
+              </li>
             </ul>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veniam in sint provident mollitia iure
+              pariatur deserunt porro eum ut ullam numquam dolorem error, molestiae officiis necessitatibus? Deleniti,
+              sed consequatur.</p>
+          </aside>
         </div>
-    </header>
+      </div>
+    </section> <!-- fim SOBRE -->
 
-    <section class="flex-container">
+    <section id="why-us" class="why-us"><!-- por que nos -->
+      <div class="container">
 
-        <div class="inicio">
-            <img src="img/11f236996eea412afd3aa0287f897604.webp" alt="Descrição da Imagem" class="flex-item">
-            <div class="flex-item">
+        <div class="section-title">
+          <h2> por que nós</h2>
+          <p> por que escolher nosso restaurante</p>
+        </div>
 
-                <h2> <strong>Sobre Mim</strong></h2>
+        <div class="row">
 
-                <p>Edna é uma talentosa confeiteira apaixonada pelo que faz. Desde 2008, ela adoça os momentos especiais
-                    dos
-                    seus clientes com bolos feitos com muito amor e dedicação. Sua formação em confeitaria e sua
-                    constante
-                    busca por aprimoramento garantem a qualidade dos seus produtos. Ela também é pioneira no serviço de
-                    delivery na área de padaria, oferecend doces e bolos. 🍰🧁🍕</p>
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>qualidade 01</h4>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia dignissimos neque tenetur ex
+                totam vel, veniam itaque ut nobis similique in laboriosam? Laborum excepturi quam accusantium! Neque,
+                quas corporis.</p>
             </div>
+          </div> <!--  fim qualidade 1 -->
+
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4>qualidade 02</h4>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia dignissimos neque tenetur ex
+                totam vel, veniam itaque ut nobis similique in laboriosam? Laborum excepturi quam accusantium! Neque,
+                quas corporis.</p>
+            </div>
+          </div> <!--  fim qualidade 2  -->
+
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4>qualidade 03</h4>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia dignissimos neque tenetur ex
+                totam vel, veniam itaque ut nobis similique in laboriosam? Laborum excepturi quam accusantium! Neque,
+                quas corporis.</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div> <!-- rom -->
+
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2> Cardápio</h2>
+          <p> Confira Nosso Saboroso Menu </p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+
+            <ul id="menu-filters">
+              <li data-filter="*" class="filter-active"> todos</li>
+              <li data-filter=".filter-starters"> entradas </li>
+              <li data-filter=".filter-salads"> saladas </li>
+              <li data-filter=".filter-specialty"> jantar </li>
+            </ul>
+
+          </div>
 
         </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+          
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/lobster-bisque.jpg " class="menu-img" alt="">
+          </div>
+
+          <div class="menu-container">
+            <a href="#"> Sopa Lagosta</a>
+            <span>%5.95</span>
+          </div>
+          <div class="menu-ingredients">Lorem ipsum dolor sit, </div>
+        
+        </div>
+      </div>
     </section>
 
 
 
-    <section id="cardapio" class="cardapio">
-        <div class="container">
-            <div class="section-title"></div>
-            <h2>Cardápio</h2>
-            <span>Os Melhores Doces E Doces Da Região</span>
-
-            <div class="grid-container">
-
-                <div class="grid-item">
-                    <img src="img/Imagem do WhatsApp de 2024-07-14 à(s) 12.12.15_5f944edc.jpg" alt="Doce 1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex minus velit facere dolores
-                        praesentium tenetur esse doloribus maiores incidunt minima perspiciatis quae veniam consequatur
-                        placeat, soluta id non tempore?
-
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <img src="img/Imagem do WhatsApp de 2024-07-14 à(s) 12.12.15_bac86efe.jpg" alt="Doce 2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsa tempore impedit quibusdam quo
-                        numquam ex animi omnis, quis pariatur eos harum sed, perferendis labore quod suscipit? Eaque,
-                        voluptatibus incidunt!</p>
-                </div>
-                <div class="grid-item">
-                    <img src="img/Imagem do WhatsApp de 2024-07-14 à(s) 12.12.16_02880e58.jpg" alt="Doce 3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, odit quidem sequi blanditiis
-                        unde amet impedit nostrum autem maxime similique provident facilis quis libero fugiat tempora
-                        quibusdam rem nam nesciunt!</p>
-                </div>
-                <div class="grid-item">
-                    <img src="img/Imagem do WhatsApp de 2024-07-14 à(s) 12.12.16_4483808d.jpg" alt="Doce 4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam blanditiis nihil quaerat
-                        molestias quo officia minima ipsam. Reprehenderit, debitis nihil. Quaerat libero beatae dolorum,
-                        maiores numquam itaque saepe perferendis?</p>
-                </div>
-                <div class="grid-item">
-                    <img src="img/Imagem do WhatsApp de 2024-07-14 à(s) 12.12.16_975303c4.jpg" alt="Doce 5">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, adipisci laboriosam
-                        accusantium nulla exercitationem voluptates rerum qui porro unde sunt amet, eos quidem tempore
-                        aliquid quibusdam similique consequatur corporis? Quasi?</p>
-                </div>
-                <div class="grid-item">
-                    <img src="img/Imagem do WhatsApp de 2024-07-14 à(s) 12.12.16_f264be3c.jpg" alt="Doce 6">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt iure minima placeat quas alias
-                        et veniam enim eos voluptatibus cupiditate ipsam ducimus quibusdam dolorem, ipsum nisi magni
-                        nostrum, sit laudantium.</p>
-                </div>
-
-            </div>
-        </div>
-        <a href="https://wa.me/5511989334975" target="_blank" class="button-link">Agendar Pedido</a>
 
 
 
-    </section>
+  </main> <!-- fim Main -->
 
+  <!-- =======  RODA PE ======= -->
+  <footer class="footer">
+
+  </footer> <!-- fim Roda Pé -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"> </i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
 
 </body>
 
